@@ -70,3 +70,9 @@ Send an e-mail to admin@prefetch.net if a domain listed in ssldomains will expir
 <pre>
 $ ssl-cert-check -a -f ssldomains -q -x 60 -e admin@prefetch.net
 </pre>
+
+SSL certificate expiry check for remote websites with Powershell:
+
+<pre>
+$ .\ssl-cert-check.ps1
+</pre>
